@@ -1,0 +1,194 @@
+<?xml version='1.0'?>
+<testsuites>
+
+    <systeminfo
+        devicetype="MiBOX2"
+        sdkversion="4.4.2" />
+
+    <testsuite>
+
+        <testcase
+            name="testFunMasterMainSetUp"
+            classname="tv.fun.master.test.TestFunMasterMainInst"
+            testresult="pass"
+            time="8.528" />
+
+        <testcase
+            name="testFunMasterMainActivityUI"
+            classname="tv.fun.master.test.TestFunMasterMainInst"
+            testresult="pass"
+            time="0.010" />
+
+        <testcase
+            name="testFunMasterMainActivityDefaultFocus"
+            classname="tv.fun.master.test.TestFunMasterMainInst"
+            testresult="pass"
+            time="0.005" />
+
+        <testcase
+            name="testFunMasterMainTearDown"
+            classname="tv.fun.master.test.TestFunMasterMainInst"
+            testresult="pass"
+            time="3.549" />
+
+        <testcase
+            name="testFunMasterGarbageClearSetUp"
+            classname="tv.fun.master.test.TestFunMasterGarbageClearInst"
+            testresult="pass"
+            time="18.816" />
+
+        <testcase
+            name="testFunMasterGarbageResultsUI"
+            classname="tv.fun.master.test.TestFunMasterGarbageClearInst"
+            testresult="pass"
+            time="1.006" />
+
+        <testcase
+            name="testFunMasterGarbageClearFinishButton"
+            classname="tv.fun.master.test.TestFunMasterGarbageClearInst"
+            testresult="pass"
+            time="1.007" />
+
+        <testcase
+            name="testFunMasterGarbageClearBackToMain"
+            classname="tv.fun.master.test.TestFunMasterGarbageClearInst"
+            testresult="pass"
+            time="3.538" />
+
+        <testcase
+            name="testFinalScoreAfterGarbageClearFinish"
+            classname="tv.fun.master.test.TestFunMasterGarbageClearInst"
+            testresult="pass"
+            time="2.020" />
+
+        <testcase
+            name="testFunMasterGarbageClearTearDown"
+            classname="tv.fun.master.test.TestFunMasterGarbageClearInst"
+            testresult="pass"
+            time="3.567" />
+
+        <testcase
+            name="testFunMasterDeviceInfoSetUp"
+            classname="tv.fun.master.test.TestFunMasterDeviceInfoInst"
+            testresult="pass"
+            time="8.384" />
+
+        <testcase
+            name="testFunMasterDeviceInfoUIKeys"
+            classname="tv.fun.master.test.TestFunMasterDeviceInfoInst"
+            testresult="pass"
+            time="0.004" />
+
+        <testcase
+            name="testFunMasterDeviceInfoBackToMain"
+            classname="tv.fun.master.test.TestFunMasterDeviceInfoInst"
+            testresult="pass"
+            time="3.536" />
+
+        <testcase
+            name="testFunMasterDeviceInfoTearDown"
+            classname="tv.fun.master.test.TestFunMasterDeviceInfoInst"
+            testresult="pass"
+            time="3.594" />
+
+        <testcase
+            name="testFunMasterNetworkSpeedTestSetUp"
+            classname="tv.fun.master.test.TestFunMasterNetworkSpeedTestInst"
+            testresult="pass"
+            time="3.353" />
+
+        <testcase
+            name="testFunMasterNetworkCheckingUI"
+            classname="tv.fun.master.test.TestFunMasterNetworkSpeedTestInst"
+            testresult="pass"
+            time="6.105" />
+
+        <testcase
+            name="testFunMasterNetworkSpeedTestingUI"
+            classname="tv.fun.master.test.TestFunMasterNetworkSpeedTestInst"
+            testresult="pass"
+            time="4.008" />
+
+        <testcase
+            name="testFunMasterNetworkSpeedTestResultsUI"
+            classname="tv.fun.master.test.TestFunMasterNetworkSpeedTestInst"
+            testresult="pass"
+            time="19.020" />
+
+        <testcase
+            name="testFunMasterNetworkSpeedTestBackToMain"
+            classname="tv.fun.master.test.TestFunMasterNetworkSpeedTestInst"
+            testresult="pass"
+            time="2.575" />
+
+        <testcase
+            name="testFunMasterNetworkSpeedTestTearDown"
+            classname="tv.fun.master.test.TestFunMasterNetworkSpeedTestInst"
+            testresult="pass"
+            time="3.527" />
+
+        <testcase
+            name="testFunMasterAutoLaunchManageSetUp"
+            classname="tv.fun.master.test.TestFunMasterAutoLaunchManageInst"
+            testresult="pass"
+            time="14.918" />
+
+        <testcase
+            name="testFunMasterAutoLaunchManageUI"
+            classname="tv.fun.master.test.TestFunMasterAutoLaunchManageInst"
+            testresult="pass"
+            time="1.057" />
+
+        <testcase
+            name="testFunMasterAutoLaunchManageAppsList"
+            classname="tv.fun.master.test.TestFunMasterAutoLaunchManageInst"
+            testresult="fail" >
+
+            <failure
+                message="android.widget.ImageView cannot be cast to android.widget.TextView"
+                type="java.lang.ClassCastException" >
+				java.lang.ClassCastException: android.widget.ImageView cannot be cast to android.widget.TextView
+					at tv.fun.master.test.uiobjects.UiObjectFunMasterAutoLaunchManageActivity.getAutoLaunchManageAppNameFromListView(UiObjectFunMasterAutoLaunchManageActivity.java:37)
+					at tv.fun.master.test.TestFunMasterAutoLaunchManageInst.testFunMasterAutoLaunchManageAppsList(TestFunMasterAutoLaunchManageInst.java:88)
+					at java.lang.reflect.Method.invokeNative(Native Method)
+					at android.test.InstrumentationTestCase.runMethod(InstrumentationTestCase.java:227)
+					at android.test.InstrumentationTestCase.runTest(InstrumentationTestCase.java:211)
+					at android.test.ActivityInstrumentationTestCase2.runTest(ActivityInstrumentationTestCase2.java:202)
+					at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:212)
+					at android.test.AndroidTestRunner.runTest(AndroidTestRunner.java:179)
+					at android.test.InstrumentationTestRunner.onStart(InstrumentationTestRunner.java:554)
+					at tv.fun.master.testrunner.TestFunMasterRunnerBasic.onStart(TestFunMasterRunnerBasic.java:56)
+					at android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:1717)
+            </failure>
+        </testcase>
+
+        <testcase
+            name="testFunMasterAutoLaunchManageOneKeyDisableAll"
+            classname="tv.fun.master.test.TestFunMasterAutoLaunchManageInst"
+            testresult="pass"
+            time="4.138" />
+
+        <testcase
+            name="testFunMasterAutoLaunchManageBackToMain"
+            classname="tv.fun.master.test.TestFunMasterAutoLaunchManageInst"
+            testresult="pass"
+            time="3.557" />
+
+        <testcase
+            name="testFunMasterAutoLaunchManageTearDown"
+            classname="tv.fun.master.test.TestFunMasterAutoLaunchManageInst"
+            testresult="pass"
+            time="3.596" />
+
+        <system-out />
+
+        <system-err />
+    </testsuite>
+
+    <summary
+        total="26"
+        totalfailed="1"
+        totalpass="25"
+        totaltime="123.437996" />
+
+</testsuites>
