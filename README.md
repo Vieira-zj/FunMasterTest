@@ -1,4 +1,4 @@
-# FunMasterTest
+# zj_robotium_project (FunMasterTest)
 This project includes the android UI test cases base on android Instrumentation framework and Robotium.
 
 Package "tv.fun.master.test" includes the UI test cases (base on ActivityInstrumentationTestCase2<?>) for each module.
